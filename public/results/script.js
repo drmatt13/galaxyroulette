@@ -13,7 +13,7 @@ const games = {
             'player5': 'open',
             'player6': 'open',
             'player7': 'open',
-            'player8': 'open',
+            'player8': 'marquis roberts',
             'player9': 'open',
             'player10': 'open',
             'player11': 'open',
