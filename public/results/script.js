@@ -21,7 +21,7 @@ const games = {
             'player13': 'open',
             'player14': 'open',
             'player15': 'open',
-            'player16': 'open',
+            'player16': 'joceyln',
             'player17': 'open',
             'player18': 'open',
             'player19': 'open',
