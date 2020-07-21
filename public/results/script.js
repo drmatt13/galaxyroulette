@@ -1,56 +1,16 @@
 const games = {
 
-    'game3': {
+    'game1': {
         'gamePlayed': false,
-        'entry': 50,
-        'payout': 1500,
-        'winner': '',
+        'entry': 5,
+        'payout': 150,
+        'winner': 0,
         'players': {
             'player1': 'open',
             'player2': 'open',
             'player3': 'open',
             'player4': 'open',
-            'player5': 'player5',
-            'player6': 'player6',
-            'player7': 'player7',
-            'player8': 'open',
-            'player9': 'player9',
-            'player10': 'player10',
-            'player11': 'open',
-            'player12': 'open',
-            'player13': 'open',
-            'player14': 'player14',
-            'player15': 'player15',
-            'player16': 'player16',
-            'player17': 'player17',
-            'player18': 'player18',
-            'player19': 'open',
-            'player20': 'open',
-            'player21': 'open',
-            'player22': 'player22',
-            'player23': 'open',
-            'player24': 'player23',
-            'player25': 'open',
-            'player26': 'open',
-            'player27': 'player27',
-            'player28': 'open',
-            'player29': 'open',
-            'player30': 'open'
-        },
-        'link': ''
-    },
-
-    'game2': {
-        'gamePlayed': false,
-        'entry': 20,
-        'payout': 600,
-        'winner': '',
-        'players': {
-            'player1': 'open',
-            'player2': 'open',
-            'player3': 'open',
-            'player4': 'open',
-            'player5': 'player5',
+            'player5': 'open',
             'player6': 'open',
             'player7': 'open',
             'player8': 'open',
@@ -78,46 +38,6 @@ const games = {
             'player30': 'open'
         },
         'link': ''
-    },
-
-    'game1': {
-        'gamePlayed': true,
-        'entry': 5,
-        'payout': 150,
-        'winner': 24,
-        'players': {
-            'player1': 'player1',
-            'player2': 'player2',
-            'player3': 'player3',
-            'player4': 'player4',
-            'player5': 'player5',
-            'player6': 'player6',
-            'player7': 'player7',
-            'player8': 'player8',
-            'player9': 'player9',
-            'player10': 'player10',
-            'player11': 'player11',
-            'player12': 'player12',
-            'player13': 'player13',
-            'player14': 'player14',
-            'player15': 'player15',
-            'player16': 'player16',
-            'player17': 'player17',
-            'player18': 'player18',
-            'player19': 'player19',
-            'player20': 'player20',
-            'player21': 'player21',
-            'player22': 'player22',
-            'player23': 'player23',
-            'player24': 'player24',
-            'player25': 'player25',
-            'player26': 'player26',
-            'player27': 'player27',
-            'player28': 'player28',
-            'player29': 'player29',
-            'player30': 'player30'
-        },
-        'link': 'https://www.facebook.com/106252654502339/videos/269161461055908/'
     }
 }
 
