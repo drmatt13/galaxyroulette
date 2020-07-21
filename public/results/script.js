@@ -266,12 +266,12 @@ function generatePage() {
 generatePage();
 
 
-video.onloadeddata = function() {
-    setTimeout(() => {
+setInterval( () => {
+    if ( video.readyState === 4 ) {
         masterContainer.classList.remove("remove");
         loaderContainer.parentNode.removeChild(loaderContainer);
-    }, 1000);
-};
+    }
+}, 1000);
 
 
 

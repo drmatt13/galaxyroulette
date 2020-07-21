@@ -393,3 +393,15 @@ window.setInterval(function(){
 }, 500);
 
 pageLoaded = true;
+
+const masterContainer = document.querySelector('.master-container');
+const loaderContainer = document.querySelector('.loader-container');
+var video = document.getElementById("video");
+masterContainer.parentNode.removeChild(masterContainer);
+setInterval( () => {
+  if ( video.readyState === 4 ) {
+      masterContainer.classList.remove("remove");
+      loaderContainer.parentNode.removeChild(loaderContainer);
+      document.body.appendChild(masterContainer);
+  }
+}, 1000);
