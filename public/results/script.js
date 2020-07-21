@@ -25,7 +25,7 @@ const games = {
             'player17': 'open',
             'player18': 'open',
             'player19': 'open',
-            'player20': 'open',
+            'player20': 'Sarah Critzman',
             'player21': 'open',
             'player22': 'open',
             'player23': 'open',
