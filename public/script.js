@@ -2,10 +2,13 @@ const masterContainer = document.querySelector('.master-container');
 const loaderContainer = document.querySelector('.loader-container');
 var video = document.getElementById("video");
 
+let flag = false;
 setInterval( () => {
-    if ( video.readyState === 4 ) {
+    if ( video.readyState === 4 && !flag) {
         masterContainer.classList.remove("remove");
         loaderContainer.parentNode.removeChild(loaderContainer);
+        document.body.appendChild(masterContainer);
+        flag = true;
     }
 }, 1000);
 

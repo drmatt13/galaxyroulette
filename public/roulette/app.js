@@ -34,7 +34,6 @@ randomizeEmojis();
 
 let options = ['', '', '', '', '', '', '', '', '', ''];
 let players = [];
-let data = {"value": -1};
 let count = 0;
 let spinning = false;
 let gameActive = false;
@@ -335,11 +334,7 @@ function spin() {
     return false;
   }
   spinning = true;
-  if (data.value == -1) {
-    spinAngleStart = 21.6433 - (randomNumber(0, 14428)/10000);
-  } else {
-    spinAngleStart = 21.6433 - data.value;
-  }
+  spinAngleStart = 21.6433 - (randomNumber(0, 14428)/10000);
   spinTime = 0;
   spinTimeTotal = 1800;
   rotateWheel();
@@ -377,20 +372,6 @@ function easeOut(t, b, c, d) {
 
 drawRouletteWheel();
 
-let url = 'http://localhost:3000';
-
-window.setInterval(function(){
-  fetch(url)
-  .then(response => response.json())
-  .then(object => {
-    data = object;
-    console.log(data);
-  })
-  .catch(error => {
-    console.log(error);
-    console.log(data);
-  })
-}, 500);
 
 pageLoaded = true;
 
@@ -398,10 +379,12 @@ const masterContainer = document.querySelector('.master-container');
 const loaderContainer = document.querySelector('.loader-container');
 var video = document.getElementById("video");
 masterContainer.parentNode.removeChild(masterContainer);
+let flag = false;
 setInterval( () => {
-  if ( video.readyState === 4 ) {
+  if ( video.readyState === 4 && !flag) {
       masterContainer.classList.remove("remove");
       loaderContainer.parentNode.removeChild(loaderContainer);
       document.body.appendChild(masterContainer);
+      flag = true;
   }
 }, 1000);
