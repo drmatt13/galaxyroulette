@@ -259,7 +259,7 @@ input {
     }
     
     .game-container-1 ul {
-        font-size: small;
+        font-size: x-small;
     }
 
     .game-container-2 {
@@ -293,7 +293,7 @@ input {
     }
 
     .game-container-1 ul {
-        font-size: x-small;
+        font-size: xx-small;
     }
     
     .game-container-2 {
@@ -312,6 +312,10 @@ input {
     .header {
         font-size: medium;
         height: 25px;
+    }
+
+    input {
+        font-size: xx-small;
     }
 
 }
