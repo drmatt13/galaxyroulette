@@ -183,6 +183,11 @@ input {
 }
 
 @media screen and (max-width: 1280px) {
+
+    .promo {
+        width: 50vw;
+    }
+
     .game-container-1 {
         width: 50vw;
     }
@@ -200,6 +205,11 @@ input {
 }
 
 @media screen and (max-width: 900px) {
+
+    .promo {
+        width: 60vw;
+    }
+
     .game-container-1 {
         width: 60vw;
     }
@@ -208,9 +218,18 @@ input {
         margin-bottom: 50px;
         width: 60vw;
     }
+
+    input {
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 850px) {
+
+    .promo {
+        width: 75vw;
+    }
+
     .game-container-1 {
         width: 75vw;
     }
@@ -223,13 +242,26 @@ input {
     .list-container {
         height: 30vw;
     }
+
+    input {
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 700px) {
+
+    .promo {
+        width: 85vw;
+    }
+
     .game-container-1 {
         width: 85vw;
     }
     
+    .game-container-1 ul {
+        font-size: small;
+    }
+
     .game-container-2 {
         margin-bottom: 50px;
         width: 85vw;
@@ -243,11 +275,25 @@ input {
         font-size: large;
         height: 5vw;
     }
+
+    input {
+        font-size: x-small;
+    }
+    
 }
 
 @media screen and (max-width: 550px) {
+
+    .promo {
+        width: 95vw;
+    }
+
     .game-container-1 {
         width: 95vw;
+    }
+
+    .game-container-1 ul {
+        font-size: smaller;
     }
     
     .game-container-2 {
@@ -255,22 +301,37 @@ input {
         width: 95vw;
     }
 
+    .game-container-2 ul {
+        font-size: small;
+    }
+
     .list-container {
         height: 45vw;
     }
 
     .header {
-        font-size: large;
+        font-size: medium;
         height: 25px;
     }
+
 }
 
+
+
+
+
+
+
+
+
+
 .loader-container {
-    background: rgb(22, 19, 48);
+    background: rgb(36, 43, 82);
     color: #ccc;
     font-family: sans-serif;
     font-size: 14px;
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;

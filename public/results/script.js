@@ -84,7 +84,7 @@ const games = {
         'gamePlayed': true,
         'entry': 5,
         'payout': 150,
-        'winner': 30,
+        'winner': 24,
         'players': {
             'player1': 'player1',
             'player2': 'player2',
@@ -265,9 +265,15 @@ function generatePage() {
 
 generatePage();
 
+
 video.onloadeddata = function() {
-    masterContainer.classList.remove("remove");
-    loaderContainer.parentNode.removeChild(loaderContainer);
+    setTimeout(() => {
+        masterContainer.classList.remove("remove");
+        loaderContainer.parentNode.removeChild(loaderContainer);
+    }, 1000);
 };
+
+
+
 
 
