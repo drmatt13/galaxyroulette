@@ -1,5 +1,45 @@
 const games = {
 
+    'game2': {
+        'gamePlayed': false,
+        'entry': 0,
+        'payout': 10,
+        'winner': 0,
+        'players': {
+            'player1': 'open',
+            'player2': 'open',
+            'player3': 'open',
+            'player4': 'open',
+            'player5': 'open',
+            'player6': 'open',
+            'player7': 'open',
+            'player8': 'open',
+            'player9': 'open',
+            'player10': 'open',
+            'player11': 'open',
+            'player12': 'open',
+            'player13': 'open',
+            'player14': 'open',
+            'player15': 'open',
+            'player16': 'open',
+            'player17': 'open',
+            'player18': 'open',
+            'player19': 'open',
+            'player20': 'open',
+            'player21': 'open',
+            'player22': 'open',
+            'player23': 'open',
+            'player24': 'open',
+            'player25': 'open',
+            'player26': 'open',
+            'player27': 'open',
+            'player28': 'open',
+            'player29': 'open',
+            'player30': 'open'
+        },
+        'link': ''
+    }
+    
     'game1': {
         'gamePlayed': false,
         'entry': 5,
